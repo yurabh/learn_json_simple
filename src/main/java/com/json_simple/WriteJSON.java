@@ -10,7 +10,6 @@ public class WriteJSON {
 
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
-
         JSONObject employeeDetails = new JSONObject();
         employeeDetails.put("firstName", "Lokesh");
         employeeDetails.put("lastName", "Gupta");

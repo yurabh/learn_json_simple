@@ -13,7 +13,6 @@ public class ReadJSON {
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         JSONParser jsonParser = new JSONParser();
-
         try (FileReader reader = new FileReader("employees.json")) {
             Object obj = jsonParser.parse(reader);
             JSONArray employeeList = (JSONArray) obj;
